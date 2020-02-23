@@ -63,7 +63,7 @@ public class ParticleDeviceSetupLibrary {
         public abstract void onSetupSuccess(@NonNull String configuredDeviceId);
 
         // FIXME: add some extra error information in onSetupFailed()
-        public abstract void onSetupFailure();
+        public abstract void onSetupFailure(String configuredDeviceId);
 
 
         /**
@@ -88,7 +88,7 @@ public class ParticleDeviceSetupLibrary {
             if (success && deviceId != null) {
                 onSetupSuccess(deviceId);
             } else {
-                onSetupFailure();
+                onSetupFailure(deviceId);
             }
         }
 
