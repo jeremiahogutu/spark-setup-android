@@ -107,7 +107,7 @@ public class SuccessActivity extends BaseActivity {
                 finishSetup(v.getContext(), deviceNameView.getText().toString(), true);
             }
         } else {
-            leaveActivity(v.getContext(), false);
+            leaveActivity(v.getContext(), true);
         }
     }
 
