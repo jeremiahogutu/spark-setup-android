@@ -73,7 +73,7 @@
     <integer name="product_id">0</integer>
 
     <!-- FIXME: apparently these values aren't customizable on the iOS app? -->
-    <string name="indicator_light">indicator light</string>
+    <string name="indicator_light">user LED</string>
     <string name="power_on_action">plugging it in</string>
 
     <!-- FIXME: figure out how these should relate to the colors defined above -->
