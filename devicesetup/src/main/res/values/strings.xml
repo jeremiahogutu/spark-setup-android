@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Phrase-templated strings -->
-    <string name="msg_device_not_listed">{device_name} not listed here? Hold the {setup_button_identifier} located in the top right back of your {device_name} to put it in pairing mode; the {indicator_light} should turn {indicator_light_setup_color_name}</string>
+    <string name="msg_device_not_listed">{device_name} not showing up? Hold down the {setup_button_identifier} on the back of your {device_name}. Wait for the {indicator_light} to turn {indicator_light_setup_color_name}. Your {device_name} will then appear within 10–15s</string>
     <string name="get_ready_title_text">Time to set up your {device_name}!</string>
     <string name="get_ready_text"><![CDATA[\n
 \u2022 Please power on your {device_name} by plugging it in.\n\n
