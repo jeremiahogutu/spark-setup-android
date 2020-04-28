@@ -33,7 +33,9 @@
             android:layout_width="match_parent"
             android:layout_marginBottom="12dp"
             android:hint="@string/hint_network_name"
-            android:inputType="textAutoComplete"/>
+            android:inputType="textAutoComplete"
+            android:background="@drawable/back"
+            android:autofillHints="Network name" />
 
         <CheckBox
             android:id="@+id/network_requires_password"

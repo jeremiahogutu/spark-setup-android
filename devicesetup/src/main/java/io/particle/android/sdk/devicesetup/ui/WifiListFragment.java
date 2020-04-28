@@ -208,12 +208,12 @@ public class WifiListFragment<T extends WifiNetwork> extends ListFragment
 
                 ImageView theWifi = Ui.findView(convertView, R.id.the_wifi);
                 Drawable whiteWifi = Ui.getTintedDrawable(getContext(), R.drawable.the_wifi,
-                        R.color.element_tint_color);
+                        R.color.element_dark_color);
                 theWifi.setImageDrawable(whiteWifi);
 
                 ImageView securityIcon = Ui.findView(convertView, R.id.wifi_security_indicator_icon);
                 Drawable whiteLock = Ui.getTintedDrawable(getContext(), R.drawable.lock,
-                        R.color.element_tint_color);
+                        R.color.element_dark_color);
                 securityIcon.setImageDrawable(whiteLock);
             }
 
