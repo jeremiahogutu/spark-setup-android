@@ -41,7 +41,9 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:checked="true"
-            android:text="@string/network_requires_password"/>
+            android:text="@string/network_requires_password"
+            android:textColor="@android:color/black"
+            />
 
         <Button
             android:id="@+id/action_connect"
