@@ -33,7 +33,7 @@
             style="@style/SectionHeader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/wifi_list_header_text"/>
+            android:text="@string/wifi_list_header_text" />
 
         <fragment
             android:id="@+id/wifi_list_fragment"
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="1"
-            tools:layout="@layout/row_wifi_scan_result"/>
+            tools:layout="@layout/row_wifi_scan_result" />
 
         <TextView
             android:id="@+id/msg_device_not_listed"
@@ -52,6 +52,7 @@
             android:gravity="center"
             android:padding="8dp"
             android:text="@string/msg_device_not_listed"
+            android:textColor="@android:color/black"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="@dimen/text_size_nano"/>
 

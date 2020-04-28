@@ -33,7 +33,7 @@
 
     <color name="page_background_color">#F2F2F2</color>
     <color name="form_field_background_color">@android:color/white</color>
-    <color name="normal_text_color">@android:color/white</color>
+    <color name="normal_text_color">@android:color/black</color>
     <color name="link_text_color">@android:color/white</color>
     <color name="link_text_bg">#19AAAAAA</color>
     <color name="error_text_color">#FE4747</color>
@@ -46,6 +46,7 @@
     <color name="element_background_color_dark">#0083A6</color>
     <color name="element_text_color">@android:color/white</color>
     <color name="element_tint_color">@android:color/white</color>
+    <color name="element_dark_color">@android:color/black</color>
     <color name="element_text_disabled_color">#E0E0E0</color>
 
     <!-- The font names below are the paths to the font you want to use, relative to the assets
