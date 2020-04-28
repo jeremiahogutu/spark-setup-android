@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     android:layout_gravity="start|top"
-    android:background="@color/shaded_background"
+    android:background="@android:color/white"
     android:contentDescription="@null"
     android:padding="12dp"
     android:scaleType="fitStart"

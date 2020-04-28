@@ -26,14 +26,23 @@
             android:layout_height="wrap_content"
             android:text="@string/select_your_wifi_network"/>
 
-        <fragment
-            android:id="@+id/wifi_list_fragment"
-            android:name="io.particle.android.sdk.devicesetup.ui.WifiListFragment"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0px"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            tools:layout="@layout/row_wifi_scan_result"/>
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/back"
+            android:baselineAligned="false">
+
+            <fragment
+                android:id="@+id/wifi_list_fragment"
+                android:name="io.particle.android.sdk.devicesetup.ui.WifiListFragment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights,Suspicious0dp"
+                tools:layout="@layout/row_wifi_scan_result" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/action_manual_network_entry"

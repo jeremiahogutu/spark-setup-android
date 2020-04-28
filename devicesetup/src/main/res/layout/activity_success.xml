@@ -43,6 +43,7 @@
             android:layout_marginRight="24dp"
             android:layout_marginTop="6dp"
             android:gravity="center"
+            android:textColor="@android:color/black"
             android:text="@string/setup_success_details"/>
 
         <TextView
