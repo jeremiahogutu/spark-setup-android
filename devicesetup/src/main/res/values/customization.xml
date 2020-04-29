@@ -47,6 +47,7 @@
     <color name="element_text_color">@android:color/white</color>
     <color name="element_tint_color">@android:color/white</color>
     <color name="element_dark_color">@android:color/black</color>
+    <color name="element_teal_color">#02A7CE</color>
     <color name="element_text_disabled_color">#E0E0E0</color>
 
     <!-- The font names below are the paths to the font you want to use, relative to the assets
