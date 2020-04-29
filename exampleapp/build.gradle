@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
     buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "io.particle.devicesetup.exampleapp"
-        minSdkVersion 16
-        targetSdkVersion 27
+        minSdkVersion 21
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
 
@@ -33,12 +33,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
 
     // BY DEFAULT, BUILD APP AGAINST THE LOCAL SETUP LIB SOURCE REPO
     // (i.e.: you can make modifications to the device setup lib source in the local repo, and
     // the changes will appear in the example app just by rebuilding, as you'd expect)
-    compile project(':devicesetup')
+    implementation project(':devicesetup')
     //
     //  *OR*
     //
